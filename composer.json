@@ -1,0 +1,28 @@
+{
+    "name": "adapik/id-generator",
+    "description": "Библиотека предоставляет сервисы генерации идентификаторов",
+    "type": "library",
+    "authors": [
+        {
+            "name": "adanilov",
+            "email": "adapik@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "ramsey/uuid": "^3.7",
+        "hidehalo/nanoid-php": "^1.1"
+    },
+    "suggest": {
+        "ramsey/uuid": "^3.0 for using UUID",
+        "ext-pdo_pgsql": "* for using postgres sequences",
+        "hidehalo/nanoid-php": "^1.0 for nano-id"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": { "Adapik\\IdGenerator\\": "src" }
+    }
+}
