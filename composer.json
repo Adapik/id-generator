@@ -1,6 +1,6 @@
 {
     "name": "adapik/id-generator",
-    "description": "Библиотека предоставляет сервисы генерации идентификаторов",
+    "description": "Library provides different implementations for generating id/primary keys",
     "type": "library",
     "authors": [
         {

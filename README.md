@@ -1,5 +1,5 @@
 # Id Generator
-[![Build Status](https://travis-ci.org/adapik/id-generator.svg?branch=master)](https://travis-ci.org/adapik/id-generator)
+[![Build Status](https://travis-ci.org/Adapik/id-generator.svg?branch=master)](https://travis-ci.org/adapik/id-generator)
 
 ## Installation
 

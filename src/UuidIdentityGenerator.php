@@ -9,7 +9,7 @@ use Ramsey\Uuid\UuidFactoryInterface;
 use RuntimeException;
 
 /**
- *
+ * Identity Generator based on uuid v4 (ramsey) generator
  */
 class UuidIdentityGenerator implements IdentityGeneratorInterface
 {
