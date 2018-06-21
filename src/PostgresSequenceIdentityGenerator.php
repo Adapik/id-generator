@@ -25,11 +25,18 @@ class PostgresSequenceIdentityGenerator implements IdentityGeneratorInterface
      */
     private $connection;
 
-    public function __construct()
+    /**
+     * @param PDO    $connection
+     * @param string $sequenceName
+     */
+    public function __construct(PDO $connection, string $sequenceName)
     {
         if (!extension_loaded('ext-pdo_pgsql')) {
             throw new RuntimeException('ext-pdo_pgsql must be installed to use the PostgresSequenceIdentityGenerator.');
         }
+
+        $this->connection   = $connection;
+        $this->sequenceName = $sequenceName;
     }
 
     /**
