@@ -20,7 +20,7 @@
         "hidehalo/nanoid-php": "^1.0 for nano-id"
     },
     "require-dev": {
-        "phpunit/phpunit": "^7.2"
+        "phpunit/phpunit": "^6.0 || ^7.0"
     },
     "autoload": {
         "psr-4": { "Adapik\\IdGenerator\\": "src" }
